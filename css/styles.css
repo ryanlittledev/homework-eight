@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+.homeContent {
+  line-height: 1.6;
+}
+.homeContent .hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/moutain.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeContent .hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 175px;
+  font-size: 80px;
+}
+.homeContent .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.homeContent .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/spain.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeContent .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.homeContent .split .right h1 {
+  color: white;
+}
+.homeContent .learn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.homeContent .learn .learnMore h1 {
+  padding-left: 300px;
+}
+.homeContent .learn .learnMore .learning {
+  width: 1000px;
+}
+
+.servicesContent {
+  line-height: 1.6;
+}
+.servicesContent .hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/highway.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesContent .hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 175px;
+  font-size: 80px;
+}
+.servicesContent .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.servicesContent .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/House.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesContent .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.servicesContent .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.servicesContent .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.servicesContent .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/highway2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesContent .split-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.servicesContent .split-3 .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/bathroom.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicesContent .split-3 .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+
+.aboutContent {
+  line-height: 1.6;
+}
+.aboutContent .hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/sky.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContent .hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding-top: 175px;
+  font-size: 80px;
+}
+.aboutContent .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.aboutContent .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Worker.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContent .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.aboutContent .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.aboutContent .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.aboutContent .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/worker2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContent .split-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.aboutContent .split-3 .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/worker3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutContent .split-3 .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
